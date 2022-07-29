@@ -6,3 +6,14 @@ Postup:
 3. ```python3 convert.py```
 4. Přeformátované obrázky se uloží pod stejným názvem do složky dest
 
+##### Změna výchozí složky
+SOURCE_PATH = 'source/'
+
+##### Změna cílové složky
+DESTINATION_PATH = 'dest/'
+
+##### Změna cílového formátu
+FORMATE = 'webp'
+
+##### Povolené formáty pro konverzi
+[ '.jpg', '.png' ]
